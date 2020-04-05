@@ -36,14 +36,14 @@ var plateUrl = "static/js/PB2002_plates.json"
 d3.json(queryUrl, function(earthquakeData) {
     console.log(earthquakeData);
 
-    d3.json(plateUrl),function(plateData){
+    d3.json(plateUrl,function(plateData){
 
         L.geoJSON(plateData, {
             style: function() {
               return {color: "orange", fillOpacity: 0}
             }
           }).addTo(plates);
-    };
+    });
 
     var earthquakes = L.geoJSON(earthquakeData, {
         style: function(feature) {
