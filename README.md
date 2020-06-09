@@ -14,7 +14,8 @@ Visualize USGS earthquake data in a meaningful way. Being able to visualize the 
 2. **HTML**
 3. **Javascript**
 4. **CSS**
-5. URL: [https://evansvillewy.github.io/leaflet-challenge/](https://evansvillewy.github.io/leaflet-challenge/) 
+5. **D3** 
+6. URL: [https://evansvillewy.github.io/leaflet-challenge/](https://evansvillewy.github.io/leaflet-challenge/) 
 
 
 ## Visualizations
