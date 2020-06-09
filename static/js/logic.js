@@ -132,7 +132,7 @@ d3.json(queryUrl, function(earthquakeData) {
 
     // Pass our map layers into our layer control
     // Add the layer control to the map
-    L.control.layers(baseMaps, overlayMaps).addTo(myMap);
+    L.control.layers(baseMaps, overlayMaps,{collapsed:false}).addTo(myMap);
 
     });
 
