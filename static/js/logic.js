@@ -111,7 +111,7 @@ d3.json(queryUrl, function(earthquakeData) {
 
     legend.onAdd = function () {
 
-        var div = L.DomUtil.create('div', 'legend');
+        var div = L.DomUtil.create('div', 'info legend');
 
         var labels = [];
         var ranges = [.9,1.9,2.9,3.9,4.9,5];
